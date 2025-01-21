@@ -71,7 +71,7 @@ export default {
       stream = false
     }
     if (model.includes('gpt-4') || model.includes('gpt-3')) {
-      model = '@cf/meta/llama-3-8b-instruct'
+      model = '@cf/meta/llama-3.3-70b-instruct-fp8-fast'
     }
 
     console.log('new model', model)
